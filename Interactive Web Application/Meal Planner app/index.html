@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meal Planner</h1>
+        <div class="meal-planner">
+            <div class="day">
+                <h2>Monday</h2>
+                <input type="text" class="meal" placeholder="Breakfast">
+                <input type="text" class="meal" placeholder="Lunch">
+                <input type="text" class="meal" placeholder="Dinner">
+            </div>
+            <!-- Repeat for other days of the week -->
+            <!-- Add more days as needed -->
+        </div>
+        <button onclick="generateShoppingList()">Generate Shopping List</button>
+        <div id="shoppingList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Tracker</h1>
+        <div class="mood-form">
+            <label for="moodSelect">How do you feel today?</label>
+            <select id="moodSelect">
+                <option value="happy">Happy 😊</option>
+                <option value="sad">Sad 😞</option>
+                <option value="angry">Angry 😡</option>
+                <option value="relaxed">Relaxed 😌</option>
+                <option value="stressed">Stressed 😩</option>
+                <option value="excited">Excited 😁</option>
+            </select>
+            <label for="activityInput">What did you do today?</label>
+            <input type="text" id="activityInput" placeholder="Enter activities...">
+            <button onclick="logMood()">Log Mood</button>
+        </div>
+        <div class="chart-container">
+            <canvas id="moodChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

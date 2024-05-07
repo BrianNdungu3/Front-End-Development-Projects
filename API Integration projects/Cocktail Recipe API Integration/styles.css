@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4e00;
+}
+
+#cocktail {
+    margin-bottom: 20px;
+}
+
+#get-cocktail-btn {
+    padding: 10px 20px;
+    background-color: #ff4e00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#get-cocktail-btn:hover {
+    background-color: #ff6e40;
+}

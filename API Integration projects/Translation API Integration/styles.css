@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#translate-btn {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#translate-btn:hover {
+    background-color: #138496;
+}
+
+#translation-result {
+    margin-top: 20px;
+}
